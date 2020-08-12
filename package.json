@@ -1,0 +1,24 @@
+{
+  "name": "components",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@storybook/addon-actions": "^6.0.5",
+    "@storybook/addon-essentials": "^6.0.5",
+    "@storybook/addon-links": "^6.0.5",
+    "@storybook/react": "^6.0.5",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-is": "^16.13.1",
+    "serve": "^11.3.2"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "scripts": {
+    "start": "serve storybook-static",
+    "storybook": "start-storybook -p 3000 --ci",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+  }
+}
